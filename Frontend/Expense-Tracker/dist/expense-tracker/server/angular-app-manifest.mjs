@@ -69,8 +69,8 @@ export default {
     'expense-tracker/dashboard/index.html': {size: 36586, hash: 'c18639dfcd65750691d6d541939ced5cd47c86d9d44ef7a628908cbfb1f54ce1', text: () => import('./assets-chunks/expense-tracker_dashboard_index_html.mjs').then(m => m.default)},
     'expense-tracker/expense/index.html': {size: 33500, hash: '0b539018061f02d6443587c9730c8172afe55f9956dbb6b49928d859864591ee', text: () => import('./assets-chunks/expense-tracker_expense_index_html.mjs').then(m => m.default)},
     'expense-tracker/income/index.html': {size: 33407, hash: '9bdb92135565b50cf24b5635d80aa23b87203036d92de74756d43e48c299f5ec', text: () => import('./assets-chunks/expense-tracker_income_index_html.mjs').then(m => m.default)},
-    'expense-tracker/savings/index.html': {size: 34072, hash: '1c7cd8f15c2bff78ba3614130526cbfe8dfd9af9b07572246ed8db6578b486a2', text: () => import('./assets-chunks/expense-tracker_savings_index_html.mjs').then(m => m.default)},
     'expense-tracker/history/index.html': {size: 45486, hash: '15dbe65a451003e7289d319d8ec51f9839f276ba5750613bbf58854d24a66cc1', text: () => import('./assets-chunks/expense-tracker_history_index_html.mjs').then(m => m.default)},
+    'expense-tracker/savings/index.html': {size: 34072, hash: '1c7cd8f15c2bff78ba3614130526cbfe8dfd9af9b07572246ed8db6578b486a2', text: () => import('./assets-chunks/expense-tracker_savings_index_html.mjs').then(m => m.default)},
     'styles-BI5W75MF.css': {size: 7004, hash: '8xay0mGHBiQ', text: () => import('./assets-chunks/styles-BI5W75MF_css.mjs').then(m => m.default)}
   },
 };
