@@ -15,4 +15,4 @@ export default `<!DOCTYPE html><html lang="en" data-beasties-container><head><li
 <link rel="modulepreload" href="chunk-DAKHQ32C.js">
 
 
-<script id="ng-state" type="application/json">{"__nghData__":[{},{"n":{"59":"58f","67":"66f"},"t":{"70":"t0"},"c":{"70":[]}},{"c":{"0":[{"i":"c1855400494","r":1}]}}]}</script></body></html>`;
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"n":{"59":"58f","67":"66f"},"t":{"70":"t2"},"c":{"70":[]}},{"c":{"0":[{"i":"c1855400494","r":1}]}}]}</script></body></html>`;
