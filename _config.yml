@@ -1,0 +1,10 @@
+# _config.yml
+
+# Exclude directories that shouldn't be processed by Jekyll:
+exclude:
+  - node_modules
+
+# You can add other configuration settings below as needed:
+title: My Expense Tracker
+baseurl: "/Expense-Tracker"   # This is useful if your site is not hosted at the root
+theme: jekyll-theme-minimal
