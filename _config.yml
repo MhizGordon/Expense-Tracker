@@ -8,3 +8,8 @@ exclude:
 title: My Expense Tracker
 baseurl: "/Expense-Tracker"   # This is useful if your site is not hosted at the root
 theme: jekyll-theme-minimal
+
+# _config.yml
+
+exclude:
+  - vendor
