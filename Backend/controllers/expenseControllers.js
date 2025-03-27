@@ -27,5 +27,22 @@ const getExpenses = async (req, res) => {
   }
 };
 
+const addExpense = async (req, res) => {
+  try {
+    const { month, date, expenseType, expenseAmount } = req.body;
+    const newExpense = new Expense({
+      month,
+      date,
+      expenseType,
+      expenseAmount
+    });
+    await newExpense.save();
+    res.status(201).json({ message: 'Expense added successfully', data: newExpense });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+
 
 module.exports = { getExpenses, addExpense };
