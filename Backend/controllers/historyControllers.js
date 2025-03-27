@@ -1,53 +1,38 @@
 const Income = require('../models/incomeModel');
 const Expense = require('../models/expenseModel');
 
+// Fetches all incomes from the database.
 const getIncomes = async (req, res) => {
     try {
-        const incomes = await Income.find();
-        res.json(incomes);
+        const incomes = await Income.find(); // Retrieve all incomes
+        res.json(incomes); // Send incomes as JSON response
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
 };
 
+// Fetches all expenses from the database
 const getExpenses = async (req, res) => {
     try {
-        const expenses = await Expense.find();
+        const expenses = await Expense.find(); // Retrieve all expenses
         res.json(expenses);
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
 };
 
-const addIncome = async (req, res) => {
-    try {
-        const { month, date, source, amount } = req.body; 
-        const newIncome = new Income({
-            month,
-            date,
-            source,
-            amount,
-        });
-
-        const savedIncome = await newIncome.save(); // Save to database
-
-        res.status(201).json(savedIncome); // Send the saved income as JSON
-    } catch (error) {
-        res.status(400).json({ message: error.message }); // Handle errors
-    }
-};
-
+// Fetches combined history of incomes and expenses
 const getHistory = async (req, res) => {
     try {
-      const incomes = await HistoryService.fetchIncomes();
-      const expenses = await HistoryService.fetchExpenses();
+      const incomes = await HistoryService.fetchIncomes();  // Fetch incomes using service
+      const expenses = await HistoryService.fetchExpenses(); // Fetch expenses using service
       
       const history = {
         incomes,
         expenses
       };
   
-      res.json(history);
+      res.json(history); // Send combined history as response
     } catch (error) {
       res.status(500).json({ message: 'Error fetching history', error });
     }
