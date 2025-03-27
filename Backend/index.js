@@ -1,8 +1,9 @@
-require('dotenv').config();
+require('dotenv').config(); // Load environment variables from .env file
 const express = require('express');
 const cors = require('cors');
-const connectDB = require('./db/db');
-const incomeRoutes = require('./routes/incomeRoutes'); // Import the income routes
+const connectDB = require('./db/db'); // Import database connection function
+// Import route files
+const incomeRoutes = require('./routes/incomeRoutes'); 
 const expenseRoutes = require('./routes/expenseRoutes');
 const savingRoutes = require('./routes/savingRoutes');
 const loginRoutes = require('./routes/loginRoutes');
@@ -12,7 +13,7 @@ const historyRoutes = require('./routes/historyRoutes');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors()); // Enable Cross-Origin Resource Sharing
 app.use(express.json());
 
 
@@ -20,7 +21,7 @@ app.use(express.json());
 connectDB();
 
 // Routes
-app.use('/api/v1', incomeRoutes); // Mount income routes under /api
+app.use('/api/v1', incomeRoutes);
 app.use('/api/v1', expenseRoutes); 
 app.use('/api/v1', savingRoutes);
 app.use('/api/v1/login', loginRoutes);
