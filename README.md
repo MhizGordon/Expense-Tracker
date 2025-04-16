@@ -55,11 +55,13 @@ Follow these steps to set up and run the Expense Tracker app locally:
   PORT=5000**
 - node index.js 
 - cd ../frontend
+- cd Expense-Tracker
+- cd src
+- cd app
+- cd expense-tracker
+- cd dashboard
 - npm install
 - ng serve
-
-
-
 
 
 
