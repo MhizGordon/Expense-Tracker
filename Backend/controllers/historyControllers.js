@@ -37,4 +37,4 @@ const getHistory = async (req, res) => {
       res.status(500).json({ message: 'Error fetching history', error });
     }
   };
-module.exports = { getIncomes, getExpenses, addIncome, getHistory }; // Export the functions
+module.exports = { getIncomes, getExpenses, getHistory }; // Export the functions
