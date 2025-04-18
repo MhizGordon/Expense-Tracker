@@ -1,10 +1,10 @@
-# 💸 Expense Tracker App
+# Expense Tracker App
 
 An intuitive web application for tracking your monthly **income**, **expenses**, and **savings**, complete with visual charts to help understand financial habits.
 
 ---
 
-## ✨ Features
+##  Features
 
   **User Authentication**  
   Secure login and registration system.
@@ -28,7 +28,7 @@ An intuitive web application for tracking your monthly **income**, **expenses**,
 
 ## Tech Stack
 
-### 🔹 Frontend
+###  Frontend
 - **Angular**
 - **HTML + CSS**
 - **TypeScript**
@@ -66,7 +66,7 @@ Follow these steps to set up and run the Expense Tracker app locally:
 
 
 
-### 📦 Install Dependencies
+###  Install Dependencies
 
 ```bash
 npm install
