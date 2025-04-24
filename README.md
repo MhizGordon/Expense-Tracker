@@ -70,3 +70,4 @@ Follow these steps to set up and run the Expense Tracker app locally:
 
 ```bash
 npm install
+npm install chart.js
