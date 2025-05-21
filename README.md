@@ -63,11 +63,14 @@ Follow these steps to set up and run the Expense Tracker app locally:
 - npm install
 - ng serve
 
-
-
+## App Demo
+https://drive.google.com/file/d/1vxqWavAPwu-wQZ_Q8DJ4hO4DRuQijr7i/view?usp=drive_link
 
 ###  Install Dependencies
 
 ```bash
 npm install
 npm install chart.js
+
+
+
